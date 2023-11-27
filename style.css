@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* A more modern font */
+    background-color: #f4f4f4; /* Light grey background for less strain on eyes */
+    color: #333; /* Dark grey text for better readability */
+    line-height: 1.6; /* More space between lines */
+}
+
+#app {
+    max-width: 800px; /* Restrict the max width for better readability */
+    margin: 20px auto; /* Center align the app */
+    padding: 20px;
+    background: #fff; /* White background for the main app */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+select, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    background-color: #007bff; /* Primary color for buttons */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Additional Styling */
+#storySelect, #jsonDisplay {
+    font-size: 1em; /* Larger font size for better readability */
+}
+
+#questionContainer {
+    background: #e9ecef; /* Light background for question section */
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#questionText {
+    font-weight: bold; /* Make the question text bold */
+}
+
+#answerList {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0;
+}
+
+#answerList li {
+    padding: 5px 0; /* Spacing between list items */
+}
+
+
+#tensesInTheStory {
+    background-color: #e9f5ff; /* Light blue background */
+    border: 1px solid #bde0fe; /* Light blue border */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.tense-pair {
+    margin-bottom: 5px;
+}
+.tense-key {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tense-value {
+    color: #555;
+}

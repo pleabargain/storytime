@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <select id="storySelect" onchange="loadStory()">
+            <!-- Options will be dynamically loaded here -->
+        
+        
+        
+        </select>
+        <!-- Tenses in the Story -->
+        <div id="tensesInTheStory"></div>
+        
+        <div id="storyContext"></div>
+
+        <!-- Story Details -->
+        <div id="storyDetails"></div>
+
+        <!-- Story Vocabulary -->
+        <div id="storyVocabulary"></div>
+
+        
+
+        <!-- Story Questions -->
+        <div id="storyQuestions"></div>
+        <div id="questionDetails"></div>
+
+        <div id="questionContainer">
+            <p id="questionText"></p>
+            <ul id="answerList"></ul>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button onclick="previousQuestion()">Previous</button>
+        <button onclick="nextQuestion()">Next</button>
+<!-- 
+      
+        <textarea id="jsonDisplay" readonly></textarea> 
+-->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
