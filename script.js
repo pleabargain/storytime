@@ -4,6 +4,195 @@ let currentQuestionIndex = 0;
 
 const stories = [
     {
+        story_name: "The Big Software Deal",
+        topic: "business",
+        vocabulary: ["software", "sales", "negotiation", "consultants", "strategy", "presentation", "client", "competition", "proposal", "deadline", "stakeholders", "market", "profit", "technology", "teamwork", "communication", "challenges", "solution", "innovation", "performance", "data", "analysis", "collaboration", "deal", "objectives", "persuasion", "confidence", "business acumen", "leadership", "contract", "perspective", "critical thinking", "negotiating skills"],
+        tenses_in_the_story: [
+        {"Past Simple": "Bob and Alice worked together on a major project."},
+        {"Past Continuous": "They were preparing a presentation for an important client."},
+        {"Past Perfect": "Before the meeting, they had analyzed all the necessary data."},
+        {"Past Perfect Continuous": "They had been working tirelessly for weeks to prepare."},
+        {"Present Simple": "Negotiating big deals is a crucial part of their job."},
+        {"Present Continuous": "They are currently strategizing their approach to win the client."},
+        {"Present Perfect": "They have developed a strong proposal that addresses the client's needs."},
+        {"Present Perfect Continuous": "Bob and Alice have been collaborating effectively for several years now."},
+        {"Future Simple Tense": "They will present their proposal to the client tomorrow."},
+        {"Future Continuous Tense": "By this time next week, they will be working on the contract details."},
+        {"Future perfect": "By the end of the month, they will have closed the deal."},
+        {"Future Perfect Continuous": "In a few months, they will have been working together on various projects for over a year."}
+        ],
+        characters: {
+        character1: "Bob",
+        character2: "Alice"
+        },
+        story: "Bob and Alice, seasoned sales consultants at a software company, faced a significant challenge: they had to negotiate a big deal with a new client. Their teamwork and communication were key as they developed a strategy. They prepared a persuasive presentation, backed by thorough market analysis and innovative solutions tailored to the client's needs. The competition was tough, but their combined experience and negotiation skills gave them confidence. After weeks of preparation, they presented their proposal. The client was impressed with their understanding of the technology and business acumen. Eventually, Bob and Alice successfully closed the deal, demonstrating their leadership and critical thinking abilities.",
+        questions: [
+        {
+        question: "What was the main objective of Bob and Alice in the story?",
+        answers: ["To go on a vacation", "To negotiate a big deal with a new client", "To develop a new software"]
+        },
+
+{
+    question: "What role does critical thinking play in a consultant's analysis of market data?",
+    answers: ["It is not necessary", "It enhances the accuracy and effectiveness of the analysis", "It slows down the process"]
+   },
+
+   {
+    question: "How does strategy play a vital role in enhancing a company's market performance?",
+    answers: ["It distracts from day-to-day operations", "It guides long-term goals and competitive positioning", "It has no significant impact"]
+},
+{
+    question: "In what ways does technology integration impact a business's efficiency and profit margins?",
+    answers: ["Negatively, by complicating processes", "Positively, by streamlining operations and increasing productivity", "It has no noticeable effect"]
+},
+{
+    question: "How critical are presentation skills in persuading stakeholders during a proposal pitch?",
+    answers: ["Not critical at all", "Extremely important for effectively conveying ideas and winning support", "Only marginally useful"]
+},
+{
+    question: "What is the impact of teamwork and collaboration on meeting project deadlines under pressure?",
+    answers: ["Causes delays and confusion", "Significantly improves the ability to meet deadlines effectively", "Has no real impact"]
+},
+{
+    question: "How do client perspectives influence the development of innovative solutions in a consultancy?",
+    answers: ["They restrict creativity", "They provide valuable insights for tailored, effective solutions", "They are irrelevant to innovation"]
+},
+{
+    question: "What role does confidence play in a salesperson's ability to close deals and build client relationships?",
+    answers: ["It intimidates clients", "It builds trust and credibility, essential for successful sales", "It is less important than product knowledge"]
+},
+{
+    question: "How does effective communication facilitate better collaboration in a business environment?",
+    answers: ["It leads to information overload", "It ensures clarity, reduces misunderstandings, and fosters teamwork", "It is not as important as individual effort"]
+},
+{
+    question: "What is the importance of data in shaping business strategies and decision-making?",
+    answers: ["Data complicates decisions", "It provides a factual basis for informed strategies and decisions", "It is often misleading and should be ignored"]
+},
+
+ {
+    question: "How important is business acumen for achieving sales objectives in a competitive market?",
+    answers: ["Not important at all", "Essential for understanding and leveraging market dynamics", "Only useful for internal meetings"]
+   },
+
+ {
+    question: "In what way does effective collaboration and communication impact a team's performance on a project with a tight deadline?",
+    answers: ["Negatively impacts the performance", "Ensures that all stakeholders are aligned and objectives are met efficiently", "Has no impact on the deadline"]
+   },
+
+{
+    question: "How do negotiating skills contribute to the success of a business deal or contract?",
+    answers: ["They lead to misunderstandings", "They enable better terms and foster positive client relationships", "They are irrelevant in modern business"]
+   },
+
+{
+    question: "What is the importance of innovation in maintaining a competitive edge in technology and software markets?",
+    answers: ["Innovation is not necessary", "It's critical for staying ahead and offering unique solutions to clients", "It only increases costs"]
+   },
+
+ {
+    question: "How does leadership influence the outcome of a critical business negotiation?",
+    answers: ["It has no influence", "Strong leadership can provide direction and confidence to the negotiating team", "It makes the team overconfident"]
+   },
+
+ {
+    question: "What is the role of perspective and persuasion in creating an impactful business proposal or presentation?",
+    answers: ["It confuses the stakeholders", "It helps in effectively communicating the value and objectives of the proposal", "It is not as important as the profit margin"]
+   },
+
+{
+    question: "How does understanding client challenges contribute to providing effective solutions and services?",
+    answers: ["It leads to overcomplicating the solution", "It ensures that the solutions are tailored to client needs and are more likely to be successful", "It has no real impact on the quality of service"]
+   },
+        {
+        question: "Which skills were crucial for Bob and Alice to succeed?",
+        answers: ["Cooking skills", "Negotiating and communication skills", "Athletic skills"]
+        },
+        {
+        question: "What was the outcome of their presentation to the client?",
+        answers: ["The client was unimpressed", "They faced technical issues", "The client was impressed and they closed the deal"]
+        }
+        ]
+        },
+        {
+        story_name: "A Day in the Life of Pharmacy Heroes",
+        topic: "everyday life",
+        vocabulary: ["pharmacy", "prescriptions", "customers", "medicine", "healthcare", "responsibility", "teamwork", "busy", "consultation", "accuracy", "patience", "compassion", "stress", "challenge", "solution", "professionalism", "dedication", "community", "knowledge", "service", "efficiency", "pharmacist", "workday", "interaction", "advice", "safety", "attention to detail", "customer care", "empathy", "workload"],
+        tenses_in_the_story: [
+        {"Past Simple": "Elena filled a complex prescription."},
+        {"Past Continuous": "Sergio was consulting with a customer about medication side effects."},
+        {"Past Perfect": "Before the day began, they had prepared the pharmacy."},
+        {"Past Perfect Continuous": "They had been working tirelessly for several hours."},
+        {"Present Simple": "Their main responsibility is to ensure the safety and health of their customers."},
+        {"Present Continuous": "They are currently helping a confused elderly man."},
+        {"Present Perfect": "Elena has double-checked the dosage of a critical medication."},
+        {"Present Perfect Continuous": "Sergio has been offering advice to patients all morning."},
+        {"Future Simple Tense": "They will restock the shelves before the day ends."},
+        {"Future Continuous Tense": "By afternoon, they will be managing a surge of customers."},
+        {"Future perfect": "By the time the pharmacy closes, they will have served hundreds of people."},
+        {"Future Perfect Continuous": "At the end of the day, they will have been working non-stop for over ten hours."}
+        ],
+        characters: {
+        character1: "Elena",
+        character2: "Sergio"
+        },
+        story: "Elena and Sergio, dedicated pharmacists, navigate a busy day at their community pharmacy. Their day is filled with filling prescriptions, consulting with customers, and managing a constant workload. They handle each task with precision and care, emphasizing the importance of accuracy and safety in their profession. Despite the stress and challenges, their teamwork and compassion shine through. They make time for every customer, offering expert advice and empathy. Their dedication to healthcare and community service is evident in every interaction, making them unsung heroes in their field.",
+        questions: [
+        {
+        question: "What profession do Elena and Sergio have?",
+        answers: ["Teachers", "Pharmacists", "Doctors"]
+        },
+        {
+        question: "What is a key responsibility of Elena and Sergio's job?",
+        answers: ["Entertaining customers", "Ensuring safety and health through proper medication", "Selling groceries"]
+        },
+        {
+            question: "What is a crucial aspect of a pharmacist's role in healthcare?",
+            answers: ["Prescribing medicine", "Ensuring safety and health through accurate prescriptions", "Offering financial advice"]
+            },
+            
+            {
+            question: "How does teamwork contribute to a pharmacist's workday?",
+            answers: ["By increasing the workload", "Through efficient customer service", "Enhancing the quality of consultation and advice"]
+            },
+            
+            {
+            question: "In a busy pharmacy, what quality is essential for managing stress and challenges?",
+            answers: ["Patience", "Aggressiveness", "Indifference"]
+            },
+            
+            {
+            question: "What is a key responsibility when interacting with customers in a pharmacy?",
+            answers: ["Entertaining customers", "Providing compassionate customer care and accurate advice", "Selling groceries"]
+            },
+            
+            {
+            question: "How does attention to detail impact the safety and health of customers in a pharmacy?",
+            answers: ["There is no significant impact", "It leads to more efficient billing", "It ensures the accuracy and appropriateness of medicine dispensed"]
+            },
+            
+            {
+            question: "What role does empathy play in a pharmacist's interaction with customers?",
+            answers: ["It is not important", "It aids in providing better customer care and understanding their healthcare needs", "It speeds up the service"]
+            },
+            
+            {
+            question: "How do dedication and professionalism influence a pharmacist's contribution to the community?",
+            answers: ["They have no influence", "They ensure high-quality service and trusted healthcare solutions", "They help in marketing the pharmacy"]
+            },
+            
+            {
+            question: "What is the importance of efficiency in managing a pharmacist's workload?",
+            answers: ["It is not important", "It reduces the quality of service", "It helps in handling more customers accurately and with care"]
+            },
+        {
+        question: "How do Elena and Sergio handle stressful situations at work?",
+        answers: ["With impatience", "By ignoring customers", "With professionalism and compassion"]
+        }
+        ]
+        }
+    ,
+    {
         story_name: "The Bittersweet Breakfast",
         topic: "family",
         vocabulary: ["pancakes", "maple syrup", "fruit", "whipped cream", "fridge", "apologetic look", "treat", "bad news", "breakfast", "special occasion", "mother and son", "anticipation", "worry", "surprise", "family dynamics", "comfort food", "sweetness", "conversation", "emotions", "preparation", "kitchen", "home", "bonding", "routine", "unexpected", "domestic life", "concern", "nurturing", "care", "love", "tension", "comfort", "coping mechanism"],
