@@ -117,7 +117,7 @@ const stories = [
         {
         story_name: "A Day in the Life of Pharmacy Heroes",
         topic: "everyday life",
-        vocabulary: ["pharmacy", "prescriptions", "customers", "medicine", "healthcare", "responsibility", "teamwork", "busy", "consultation", "accuracy", "patience", "compassion", "stress", "challenge", "solution", "professionalism", "dedication", "community", "knowledge", "service", "efficiency", "pharmacist", "workday", "interaction", "advice", "safety", "attention to detail", "customer care", "empathy", "workload"],
+        vocabulary: ["pharmacy", "dispensary","prescriptions", "customers", "surge","medicine", "healthcare", "responsibility", "teamwork", "busy", "consultation", "accuracy", "patience", "compassion", "stress", "challenge", "solution", "professionalism", "dedication", "community", "knowledge", "service", "efficiency", "pharmacist", "workday", "interaction", "advice", "safety", "attention to detail", "customer care", "empathy", "workload"],
         tenses_in_the_story: [
         {"Past Simple": "Elena filled a complex prescription."},
         {"Past Continuous": "Sergio was consulting with a customer about medication side effects."},
