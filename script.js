@@ -44,7 +44,7 @@ const stories = [
     {
         story_name: "A New Beginning",
         topic: "adventure",
-        vocabulary: ["train", "message", "sister", "Vancouver", "Canada", "new start", "adventure", "excitement", "uncertainty", "bold move", "leap of faith", "change", "independence", "travel", "goodbye", "exploration", "freedom", "decisions", "determination", "courage", "hope", "new life", "journey", "challenge", "opportunity", "expectation", "dreams", "aspiration", "distance", "farewell", "future", "starting over", "adapting"],
+        vocabulary: ["train", "message", "embarked","sister", "Vancouver", "Canada", "new start", "adventure", "excitement", "uncertainty", "bold move", "leap of faith", "change", "independence", "travel", "goodbye", "exploration", "freedom", "decisions", "determination", "courage", "hope", "new life", "journey", "challenge", "opportunity", "expectation", "dreams", "aspiration", "distance", "farewell", "future", "starting over", "adapting"],
         tenses_in_the_story: [
             {"Past Simple": "Elena sold everything and boarded the train."},
             {"Past Continuous": "As the train was leaving, she began to write a message."},
